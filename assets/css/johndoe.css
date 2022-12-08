@@ -4835,6 +4835,7 @@ input[type="button"].btn-block {
     display: -webkit-flex !important;
     display: -ms-flexbox !important;
     display: flex !important;
+    align-items: end;
     -webkit-flex-basis: auto;
         -ms-flex-preferred-size: auto;
             flex-basis: auto;
@@ -11445,12 +11446,30 @@ pre .code {
 .navbar .brand .brand-txt {
   position: relative;
   bottom: -20px;
-  opacity: 0;
+  opacity: 1;
   -webkit-transition: 1s;
   transition: 1s;
   -weblit-transition: 1s;
   z-index: 1;
 }
+
+/* Alteracao */
+.navbar .marca .marca-txt {
+  position: relative;
+  /* bottom: -10px; */
+  opacity: 1;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -weblit-transition: 1s;
+  z-index: 1;
+  text-align: center;
+}
+
+.navbar .marca .marca-txt .marca-subtitle {
+  font-size: 13px;
+  color: #888;
+}
+/* /fim alteracao */
 
 .navbar .brand .brand-txt .brand-subtitle {
   font-size: 13px;
@@ -11544,9 +11563,9 @@ pre .code {
 }
 
 .header .header-content .header-title {
-  font-size: calc(40px + (120 - 40) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(40px + (120 - 40) * ((100vw - 400px) / (1600 - 300)));
   font-weight: bold;
-  line-height: .7;
+  line-height: .9;
   margin-bottom: 25px;
   color: inherit;
 }
@@ -11689,4 +11708,8 @@ pre .code {
   display: block;
   margin-top: 10px;
 }
+
+
+
+/* ---------------- PAGINA DO PLANO DE DESENVOLVIMENTO PROFISSIONAL -----------------------------*/
 
