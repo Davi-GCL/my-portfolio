@@ -378,7 +378,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: "Dosis", sans-serif;
+  /* font-family: "Dosis", sans-serif; */
   font-weight: 500;
   line-height: 1.2;
 }
@@ -11287,6 +11287,7 @@ p {
   margin-bottom: 30px;
   overflow: hidden;
   margin: 0 15px 30px;
+  width: 1110px;
 }
 
 .blog-card .img-holder {
@@ -11414,7 +11415,7 @@ pre .code {
 
 .navbar .nav-link {
   font-weight: bold;
-  font-family: "Dosis","Open Sans",sans-serif;
+  /* font-family: "Dosis","Open Sans",sans-serif; */
 }
 
 .navbar .nav-link.active {
