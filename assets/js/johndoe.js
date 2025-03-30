@@ -148,3 +148,14 @@ function initMap() {
       ]
     });
 }
+
+// years of experience counter 
+$(document).ready(function() {
+    const startDate = new Date(2022, 10, 20);
+    const currentDate = new Date();
+
+    let timeDiff = currentDate - startDate;
+    let yearsAmount = Math.floor(timeDiff / (1000 * 60 * 60 * 24 * 365.25));
+
+    $('#experiencedYearsCount').text(yearsAmount);
+});
